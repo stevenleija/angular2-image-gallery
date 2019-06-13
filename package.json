@@ -1,9 +1,10 @@
 {
-  "name": "angular2-image-gallery-demo",
+  "name": "angular2-image-gallery-leija",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
     "start": "ng serve --disableHostCheck",
+    "convert": "node dist/angular2-image-gallery/convert.js /Users/stevenleija/workspaces/GitHub\\ Repos/angular2-image-gallery/src/assets/gallery --gName=featured",
     "build": "ng build --prod",
     "test": "ng test",
     "lint": "ng lint",
@@ -51,6 +52,7 @@
     "ng-packagr": "^3.0.0-rc.2",
     "protractor": "^5.4.2",
     "ts-node": "~5.0.1",
+    "node-iptc": "^1.0.5",
     "tsickle": ">=0.33.1",
     "tslib": "^1.7.1",
     "tslint": "~5.9.1",
